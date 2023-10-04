@@ -1,7 +1,7 @@
 import axios from "axios";
 import { errorAlert } from "../utils/swal";
 const authInstance = axios.create({
-  baseURL: "http://localhost:3390/api/",
+  baseURL: "https://examapp-a4wo.onrender.com/api",
 });
 
 authInstance.interceptors.request.use(function (config) {
